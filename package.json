@@ -1,0 +1,37 @@
+{
+  "name": "tfjs-error-test",
+  "version": "0.0.1",
+  "description": "model-error-test",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "browser": "dist/index.js",
+  "types": "types/index.d.ts",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "start": "node --trace-warnings server/serve.js"
+  },
+  "keywords": [],
+  "author": "Vladimir Mandic <mandic00@live.com>",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@tensorflow/tfjs": "^3.2.0",
+    "@types/node": "^14.14.22",
+    "@typescript-eslint/eslint-plugin": "^4.14.0",
+    "@typescript-eslint/parser": "^4.14.0",
+    "@vladmandic/pilogger": "^0.2.12",
+    "chokidar": "^3.5.1",
+    "esbuild": "^0.8.34",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-json": "^2.1.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint": "^7.18.0",
+    "tslib": "^2.1.0",
+    "typescript": "^4.1.3"
+  }
+}

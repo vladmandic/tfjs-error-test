@@ -1,0 +1,62 @@
+{
+  "inputs": {
+    "(disabled):node_modules/node-fetch/browser.js": {
+      "bytes": 0,
+      "imports": []
+    },
+    "(disabled):crypto": {
+      "bytes": 0,
+      "imports": []
+    },
+    "node_modules/@tensorflow/tfjs/dist/tf.es2017.js": {
+      "bytes": 3730352,
+      "imports": [
+        {
+          "path": "(disabled):node_modules/node-fetch/browser.js",
+          "kind": "require-call"
+        },
+        {
+          "path": "(disabled):crypto",
+          "kind": "require-call"
+        }
+      ]
+    },
+    "src/index.js": {
+      "bytes": 1510,
+      "imports": [
+        {
+          "path": "node_modules/@tensorflow/tfjs/dist/tf.es2017.js",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "dist/index.js.map": {
+      "imports": [],
+      "exports": [],
+      "inputs": {},
+      "bytes": 4698993
+    },
+    "dist/index.js": {
+      "imports": [],
+      "exports": [],
+      "entryPoint": "src/index.js",
+      "inputs": {
+        "(disabled):node_modules/node-fetch/browser.js": {
+          "bytesInOutput": 18
+        },
+        "(disabled):crypto": {
+          "bytesInOutput": 18
+        },
+        "node_modules/@tensorflow/tfjs/dist/tf.es2017.js": {
+          "bytesInOutput": 925706
+        },
+        "src/index.js": {
+          "bytesInOutput": 1109
+        }
+      },
+      "bytes": 934796
+    }
+  }
+}
